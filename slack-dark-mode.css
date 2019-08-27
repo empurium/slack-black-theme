@@ -201,7 +201,7 @@ div.c-virtual_list__scroll_container {
 .light_theme ts-message .timestamp {
     line-height: 18px;
     opacity: 0;
-    color: #ffb088 !important;}
+}
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider {
     z-index: 0;
@@ -1037,9 +1037,6 @@ color:white !important;
 #reply_container .inline_message_input_container .message_input div, #reply_container .inline_message_input_container textarea, .reply_input_container .inline_message_input_container .message_input div, .reply_input_container .inline_message_input_container textarea{
     color:white !important;
     opacity:1 !important;
-}
-.c-timestamp__label{
-    color: #ffb088 !important;
 }
 .c-message__sender{
 color:#a4d677 !important
