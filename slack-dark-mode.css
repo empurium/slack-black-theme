@@ -2634,3 +2634,6 @@ background:#222222 !important}
     color: #a0a0a0;}
 .p-classic_nav__team_header__team__name{
 letter-spacing:-0.7px !important}
+.p-channel_sidebar__channel:before, .p-channel_sidebar__channel--mpim:before {
+    color: #434343 !important;
+}
