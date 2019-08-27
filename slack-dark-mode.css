@@ -185,14 +185,12 @@ div.c-message.c-message--light.c-message--hover {
 }
 .c-message__sender a {
     color: white !important;
-    font-size: 14px !important;
 }
 span.c-message__body,
 a.c-message__sender_link,
 span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
 div.p-message_pane__foreword__description span {
     color: white;
-    font-size: 14px;
     letter-spacing: 0.3px !important;
 }
 div.c-virtual_list__scroll_container {
@@ -263,7 +261,6 @@ ts-message .internal_member_link,
 ts-message .internal_user_group_link,
 ts-message .mention {
    color: #fecd8a !important;
-    font-size: 14px;
    background: transparent
 }
 .btn {
@@ -303,7 +300,6 @@ ts-message .mention {
       background: transparent;
    color: #fcc973!important;
     border: none !important;
-    font-size:13px;
   padding: 0px 2px 1px 2px;
    }
    .c-member_slug--link:hover {
@@ -521,7 +517,6 @@ p-search_filter__date:first-child {
 }
 .p-search_filter__more_link {
     color: #36D4F6;
-    font-size: 13px;
     margin-top: 4px;
 }
 .c-link--button:active,
@@ -546,7 +541,6 @@ p-search_filter__date:first-child {
     padding: 0 .5rem;
     background-color: #545454;
     color: white;
-    font-size: 15px;
 }
 .p-channel_insights__date_heading::before {
     display: block;
@@ -572,11 +566,6 @@ p-search_filter__date:first-child {
 .c-button--outline a {
     color: white;
 }
-.c-message--light .c-message__sender .c-message__sender_link {
-
-    font-size: 14px !important;
-}
-
 .c-message--light .c-message__sender .c-message__sender_link{
  color: #a4d677 !important;
 }
@@ -622,9 +611,6 @@ p-search_filter__date:first-child {
 }
 .p-downloads_flexpane--list {
     color: green !important;
-}
-.p-channel_sidebar {
-    font-size: 14px !important;
 }
 .c-file__meta {
     background: blue !important;
@@ -882,7 +868,6 @@ a.file_download_link:hover {
     height: 20px;
     overflow: hidden;
     line-height: 16px;
-    font-size: 17px;
 }
 .p-channel_sidebar {
     border-right: 1px solid #464646 !important;}
@@ -1116,7 +1101,6 @@ color:#a4d677 !important
                     background-color: #008952;
                 }
                 .c-message_kit__file__meta__text {
-                    font-size: 12px;
                     color: #949494 !important;}
                     .msg_input_btn {
                         background-color: #008952 !important;
@@ -1284,7 +1268,6 @@ color:#a4d677 !important
     line-height: 1.5;
     padding: 11px 0 11px 11px;
     border-top: 1px solid #4c4c4c;
-    font-size: 14px;
     background: #222222;
     color: white;}
     #details_tab .conversation_details .member_info, #details_tab .conversation_details .slackbot_info{
@@ -1419,7 +1402,6 @@ color:#a4d677 !important
     padding-top: 3px;
     border-bottom: 3px solid #ff5a5a;}
     .p-emoji_picker__preview_text {
-    font-size: .9rem;
     line-height: .9rem;
     padding: .6rem .7rem .8rem 0;
     background: #3a3a3a;
@@ -1455,7 +1437,6 @@ background:black;}
     color:white !important
 }
 .c-menu_item__description {
-    font-size: 13px;
     line-height: .9375;
     color: #ababab;}
     .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight){
@@ -1471,7 +1452,6 @@ background:black;}
     border-top: 0;
     border-bottom: 1px solid #000;}
     #flex_contents .help {
-    font-size: 1rem;
     color: #ffffff;
     line-height: 1.3rem;
     padding-top: 1rem;
@@ -1533,7 +1513,6 @@ color:white;}
     align-items: center;
     margin-bottom: .375rem;
     line-height: inherit;
-    font-size: inherit;
     color: white;}
     .c-input_select_options_list__empty_state {
     display: block;
@@ -1549,12 +1528,10 @@ color:white;}
     display: inline-block;
     color: #ffffff;}
     .modal_input_note {
-    font-size: .8rem;
     color: #ffffff;}
     .greigh {
     color: #fda792!important;}
     #new_channel_modal input[type=text], #new_channel_modal textarea, .p-share_channel_dialog__contents input[type=text], .p-share_channel_dialog__contents textarea {
-    font-size: 18px;
     margin-bottom: 0;
     background: transparent;}
     .lazy_filter_select .lfs_list_container {
@@ -1574,7 +1551,6 @@ color:white;}
     .lazy_filter_select .lfs_list .lfs_item.selected, .lazy_filter_select .lfs_list .lfs_item.selected .c-unified_member__current-status .prevent_copy_paste, .lazy_filter_select .lfs_list .lfs_item.selected .c-unified_member__current-status--small:before, .lazy_filter_select .lfs_list .lfs_item.selected .c-unified_member__display-name, .lazy_filter_select .lfs_list .lfs_item.selected .c-unified_member__name, .lazy_filter_select .lfs_list .lfs_item.selected .c-unified_member__secondary-name {
     color: #9ac4e5;}
     .input_note_special {
-    font-size: .9rem;
     line-height: 1.25rem;
     color: #ffffff;}
     .btn{
@@ -1597,7 +1573,6 @@ color:white;}
     .sk_black {
     color: #ffffff;}
     #channel_browser .channel_browser_channel_created_info, #channel_browser .channel_browser_channel_invite_info, #channel_browser .channel_browser_channel_shared_info, #channel_browser .channel_browser_private_channel_rollup_info {
-    font-size: 13px;
     line-height: 1.38463;
     color: #c0c0c0;}
     .channel_modal .channel_modal_filter_container input[type=text] {
@@ -1608,7 +1583,6 @@ color:white;}
     background: transparent;}
     #channel_browser .channel_browser_divider {
     color: #ffffff;
-    font-size: 14px;
     width: 100%;
     padding: 4px 0 4px 12px;
     background: #000000;}
@@ -1620,7 +1594,6 @@ color:white;}
     .c-message_list__day_divider__label__pill {
     background: #474747 !important;}
     #im_browser .im_browser_row .im_display_name_container {
-    font-size: 15px;
     line-height: 21px;
     height: 21px;
     color: white;}
@@ -1657,7 +1630,6 @@ color:white;}
     .uneditable-input, input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=tel], input[type=color], input[type=search], textarea{
     border-radius:0 !important; background: #222222;}
     .searchable_member_list_filter .faux_input {
-    font-size: 1rem;
     padding: .55rem .75rem .65rem;
     border: 1px solid #3c3c3c;
     border-radius: .25rem;
@@ -1676,7 +1648,6 @@ color:white;}
     padding: .75rem .5rem .75rem .75rem;
     border-bottom: 1px solid #565656}
     #whats_new_tab p {
-    font-size: 15px;
     line-height: 22px;
     color: #ffffff;}
     .indifferent_grey {
@@ -1749,7 +1720,6 @@ color:white;}
     -webkit-transition: all .4s ease 0s;
     -moz-transition: all .4s ease 0s;
     transition: all .4s ease 0s;
-    font-size: 24px;
     line-height: 32px;
     color: white;}
     .p-shortcuts_flexpane__shortcut {
@@ -1759,7 +1729,6 @@ color:white;}
     c-keyboard_key {
     background: #646464;
     padding: 2px 8px;
-    font-size: 13px;
     min-width: 24px;
     height: 27px;
     margin: 0 2px;
@@ -1779,7 +1748,6 @@ color:white;}
     .c-keyboard_key {
     background: #575656;
     padding: 2px 8px;
-    font-size: 13px;
     min-width: 24px;
     height: 27px;
     margin: 0 2px;
@@ -1801,7 +1769,6 @@ color:white;}
     .tab_container .star_item .message .star_jump.msg_right_link, .tab_container .star_item ts-message .star_jump.msg_right_link{
     background:black}
     [lang] .c-message_kit__message {
-    font-size: 15px;
     color: white;}
     .p-multi_file_upload__container .p-galler_scroller__wrapper{border:none}
     .fs_modal_file_viewer_header .control_btn.active, .fs_modal_file_viewer_header .control_btn:active, .fs_modal_file_viewer_header .control_btn:focus, .fs_modal_file_viewer_header .control_btn:hover, .fs_modal_file_viewer_header a.control_btn.active, .fs_modal_file_viewer_header a.control_btn:active, .fs_modal_file_viewer_header a.control_btn:focus, .fs_modal_file_viewer_header a.control_btn:hover{color:white;}
@@ -1876,7 +1843,6 @@ color:white;}
     align-items: center;
     padding: 8px 10px;
     line-height: 24px;
-    font-size: 15px;
     background: TRANSPARENT !important;}
     .c-message--highlight, .c-message--highlight_yellow_bg {
     background: #171614;}
@@ -1901,7 +1867,6 @@ color:white;}
     p-apps_browser__app_limit_meter__paragraph {
     color: #d8d8d8;}
     .p-apps_browser__category_header {
-    font-size: 1rem;
     line-height: 1.2rem;
     background: TRANSPARENT;
     color: #ffffff;
@@ -2157,10 +2122,6 @@ padding-top:2px;}
     background: #1f1f1f;}
     .channel_option_item:hover {
     border-top: 1px solid #656565;}
-    
-    .c-message_list__day_divider__label__pill{
-    font-size: 12px;
-    }
     .c-card_carousel__btn {
     background: #000;}
 .p-app_profile_flexpane_header__button{
@@ -2258,7 +2219,6 @@ ts-message .internal_member_link:hover {
 }
 .c-app_badge, .c-app_label {
     border-radius: 2px;
-    font-size: 11px;
     padding: 1px 3px;
     color: rgba(255, 255, 255, 1) !important;
     background-color: rgb(142, 60, 245);
@@ -2273,7 +2233,6 @@ ts-message .internal_member_link:hover {
 }
 span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption, div.p-message_pane__foreword__description span {
     color: white;
-    font-size: 14.6px;
     letter-spacing: -0.3px !important;}
     .p-workspace--classic-nav .p-workspace__primary_view_footer {
     background: #222222 !important;}
@@ -2291,8 +2250,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     padding-left: 43px;
     z-index: 200;
     color: white;}
-    .c-member_slug--link{
-    font-size:14.6px !important}
     .c-texty_autocomplete {
     background: #000;}
     .c-texty_autocomplete__help {
@@ -2357,7 +2314,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     .c-message_kit__replies_count {
     display: flex;
     align-items: center;
-    font-size: 13px;
     color: #ffffff !important;}
     .p-workspace__secondary_view {
     grid-area: p-workspace__secondary_view;
@@ -2434,7 +2390,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     box-shadow: 0 0 0 1px rgba(0,0,0,.08), 0 4px 12px 0 rgba(0,0,0,.08);
     background: #333;}
     .p-member_profile_field__label {
-    font-size: 13px;
     color: rgb(255, 255, 255);}
     .p-member_profile_field__value{
     color:white}
@@ -2443,7 +2398,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     .p-member_profile_field__value{
     color:white}
     .p-member_profile_name__title {
-    font-size: 22px;
     line-height: 1.36365;
     color: white;}
     .p-workspace--classic-nav .p-workspace__primary_view {
@@ -2469,11 +2423,9 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     color: #ffffff !important;}
     .p-channel_create_modal__input_subtext {
     padding-top: 4px;
-    font-size: 13px;
     line-height: 1.38463;
     color: rgb(187, 187, 187);}
     .p-channel_create_modal, .p-channel_create_modal__label_title, .p-channel_create_modal__private_toggle_copy_body, .p-channel_create_modal__private_toggle_copy_title, .p-channel_create_modal__share, .p-channel_name_input__label_title, .p-invite_users_input__label_title {
-    font-size: 15px;
     line-height: 1.46668;
     color: white !important;
 }
@@ -2487,11 +2439,9 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     background-color: #222222 !important;}
     .p-invite_users_input__input_subtext {
     padding-top: 4px;
-    font-size: 13px;
     line-height: 1.38463;
     color: rgb(255, 255, 255) !important;}
     .p-dm_browser_modal__list_heading {
-    font-size: 13px;
     line-height: 1.38463;
     color: rgb(255, 255, 255) !important;}
     .c-base_entity__metadata, .c-base_entity__subtext {
@@ -2501,7 +2451,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     white-space: nowrap;
     color: rgb(255, 255, 255) !important; }
     .p-dm_browser_modal__list_row_meta {
-    font-size: 13px;
     line-height: 1.38463;
     color: rgb(255, 255, 255) !important;}
     .p-channel_create_modal__share {
@@ -2513,7 +2462,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     .c-alert--boxed {
     color: #ffffff !important;}
     .p-dm_browser_modal__controls_meta {
-    font-size: 13px;
     line-height: 1.38463;
     color: rgba(255, 255, 255, 0.7) !important;}
     .p-classic_nav__right__search:hover .p-classic_nav__right__search__text {
@@ -2535,7 +2483,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     background: #222222 !important;
 }
 .p-classic_nav__channel_header__subtitle {
-    font-size: 13px;
     line-height: 1.38463;
     color: rgba(255, 255, 255, 0.7) !important;}
     .p-channel_name_input__label_title strong {
@@ -2550,7 +2497,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     c-search_autocomplete__query_parts .token:hover{
     color:black !important}
     .p-classic_nav__model__title__name {
-    font-size: 18px;
     line-height: 1.33334;
     display: inline-flex;
     max-width: 100%;
@@ -2582,7 +2528,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 .c-select_options_list__wrapper {
     background-color: #4f4e4e !important; }
     .c-select_options_list__option {
-    font-size: 15px;
     line-height: 1.46668;
     display: flex;
     align-items: center;
@@ -2607,7 +2552,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     overflow-wrap: break-word;
     color: #5ff2ff !important;}
     .p-message_pane_input__preview_subtitle {
-    font-size: 18px;
     line-height: 1.33334;
     color: #ffffff !important;}
   
