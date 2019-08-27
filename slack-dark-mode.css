@@ -184,7 +184,6 @@ div.c-message.c-message--light.c-message--hover {
     color: grey !important;
 }
 .c-message__sender a {
-    font-weight: 600;
     color: white !important;
     font-size: 14px !important;
 }
@@ -271,7 +270,6 @@ ts-message .mention {
     background: #008952;
     color: #fff;
     line-height: 1.2rem;
-    font-weight: 900;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -299,13 +297,11 @@ ts-message .mention {
 .btn_outline {
     background: #f9f9f9;
     color: #2c2d30!important;
-    font-weight: 700;
     text-shadow: none;
 }
 .c-member_slug--link {
       background: transparent;
    color: #fcc973!important;
-    font-weight: 600 !important;
     border: none !important;
     font-size:13px;
   padding: 0px 2px 1px 2px;
@@ -578,7 +574,6 @@ p-search_filter__date:first-child {
 }
 .c-message--light .c-message__sender .c-message__sender_link {
 
-    font-weight: 700 !important;
     font-size: 14px !important;
 }
 
@@ -591,10 +586,6 @@ p-search_filter__date:first-child {
 .light_theme ts-message .message_content .message_sender {
     color:  #a4d677 !important;
     text-transform: capitalize;
-    font-weight: 700 !important;
-}
-.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted) .p-channel_sidebar__name {
-    font-weight: bolder !important;
 }
 .p-download_item__container .p-download_item__name_row{
     color:white !important
@@ -795,7 +786,6 @@ code {
 }
 #flex_contents .heading_text {
     color: white !important;
-    font-weight:bold;
 }
 .c-link--button {
     color: #36D4F6 !important;
@@ -893,7 +883,6 @@ a.file_download_link:hover {
     overflow: hidden;
     line-height: 16px;
     font-size: 17px;
-   font-weight:700;
 }
 .p-channel_sidebar {
     border-right: 1px solid #464646 !important;}
@@ -1149,7 +1138,7 @@ color:#a4d677 !important
                     .sli_briefing_preview_container::after, .sli_briefing_preview_container::before{background:#222222; border:1px solid #737373;}
                     .sli_briefing_preview__description_text{color:white;}
                     .sli_briefing_preview__description_text b {
-                        color: #2dffd1;    font-weight: 600;}
+                        color: #2dffd1;}
                         .sli_briefing__message ts-message:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display){
                             background-color: #313131;
                             border: 1px solid #000;
@@ -1167,12 +1156,6 @@ color:#a4d677 !important
                                 }
                                 .sli_briefing__feedback_controls{
                                     color: #969696;
-                                }
-                                .channel_title .channel_name{
-                                    font-weight:bold !important;
-                                }
-                                .p-threads_flexpane__header .p-flexpane_header__children{
-                                    font-weight:700;
                                 }
                                 .p-threads_view__default_background--first{
                                     background:#323232 !important;
@@ -1547,13 +1530,11 @@ color:white;}
     background-color: #4a3f3f !important;
     color: white;}
     .p-search_filter__checkbox_label--selected {
-    font-weight: 700;
     color: white;}
     .p-search_filter__option {
     display: flex;
     align-items: center;
     margin-bottom: .375rem;
-    font-weight: 700;
     line-height: inherit;
     font-size: inherit;
     color: white;}
@@ -1608,7 +1589,6 @@ color:white;}
     border-color: #000000;}
     .subtle_silver {
     color: #ffffff!important;}
-    .black{font-weight:700 !important;}
     #details_tab .feature_sli_channel_insights .channel_created_section .creator_link, #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text{color:white}
     .btn_link {
     color: #b2ddff;}
@@ -1622,7 +1602,6 @@ color:white;}
     #channel_browser .channel_browser_channel_created_info, #channel_browser .channel_browser_channel_invite_info, #channel_browser .channel_browser_channel_shared_info, #channel_browser .channel_browser_private_channel_rollup_info {
     font-size: 13px;
     line-height: 1.38463;
-    font-weight: initial;
     color: #c0c0c0;}
     .channel_modal .channel_modal_filter_container input[type=text] {
     width: 100%;
@@ -1635,7 +1614,6 @@ color:white;}
     font-size: 14px;
     width: 100%;
     padding: 4px 0 4px 12px;
-    font-weight: 700;
     background: #000000;}
     #channel_browser .channel_browser_row {
     border-top: 1px solid #676767;}
@@ -1774,7 +1752,6 @@ color:white;}
     -webkit-transition: all .4s ease 0s;
     -moz-transition: all .4s ease 0s;
     transition: all .4s ease 0s;
-    font-weight: 900;
     font-size: 24px;
     line-height: 32px;
     color: white;}
@@ -1786,7 +1763,6 @@ color:white;}
     background: #646464;
     padding: 2px 8px;
     font-size: 13px;
-    font-weight: 400;
     min-width: 24px;
     height: 27px;
     margin: 0 2px;
@@ -1807,7 +1783,6 @@ color:white;}
     background: #575656;
     padding: 2px 8px;
     font-size: 13px;
-    font-weight: 400;
     min-width: 24px;
     height: 27px;
     margin: 0 2px;
@@ -1882,7 +1857,7 @@ color:white;}
     .p-channel_sidebar__section_heading_label--clickable:hover{background:transparent}
     .c-message__label__highlight_title {
     color: #ffffff;
-    font-weight: 700;}
+    }
     .c-message--sli_highlight .c-message__label__icon {
     color: #ffd452;}
     .c-message--pinned, .c-message--sli_highlight:not(.c-message--sli_highlight_negative), .c-message--starred {
@@ -1957,12 +1932,11 @@ color:white;}
     color: white;}
     .pinned_item .pin_member_name a, .pinned_item .pin_member_title {
     color: #ffb15e!important;
-    font-weight: 700!important;}
+    }
     .app_preview_link_slug, .internal_member_link, .internal_user_group_link {
     background: #f1c877;
     color: #000000 !important;
     opacity: 1;
-    font-weight: 700;
     padding: 0 4px;
     border-radius: 3px;}
     .pinned_item .pinned_message_text .pin_truncate_fade {
@@ -2217,7 +2191,6 @@ background: transparent !important}
     .ts_icon_arrow_large_right:before {
     color: black !important;}
     .c-message__broadcast_preamble_link {
-    font-weight: 500 !important;
     margin-right: 4px;
     margin-left: 4px;
     color: #5cfff4 !important;
@@ -2295,7 +2268,6 @@ ts-message .internal_member_link:hover {
     display: inline-block;
     height: 14px;
     line-height: 1.25;
-    font-weight: 700;
     vertical-align: .125rem;}
     .c-pillow_file__post__content code, 
 .c-pillow_file__post__content pre,
@@ -2476,7 +2448,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     .p-member_profile_name__title {
     font-size: 22px;
     line-height: 1.36365;
-    font-weight: 900;
     color: white;}
     .p-workspace--classic-nav .p-workspace__primary_view {
     grid-template-areas: "p-workspace__primary_view_contents";
@@ -2503,12 +2474,10 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     padding-top: 4px;
     font-size: 13px;
     line-height: 1.38463;
-    font-weight: 400;
     color: rgb(187, 187, 187);}
     .p-channel_create_modal, .p-channel_create_modal__label_title, .p-channel_create_modal__private_toggle_copy_body, .p-channel_create_modal__private_toggle_copy_title, .p-channel_create_modal__share, .p-channel_name_input__label_title, .p-invite_users_input__label_title {
     font-size: 15px;
     line-height: 1.46668;
-    font-weight: 400;
     color: white !important;
 }
 .c-multi_select_input {
@@ -2523,12 +2492,10 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     padding-top: 4px;
     font-size: 13px;
     line-height: 1.38463;
-    font-weight: 400;
     color: rgb(255, 255, 255) !important;}
     .p-dm_browser_modal__list_heading {
     font-size: 13px;
     line-height: 1.38463;
-    font-weight: 400;
     color: rgb(255, 255, 255) !important;}
     .c-base_entity__metadata, .c-base_entity__subtext {
     display: block;
@@ -2539,7 +2506,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     .p-dm_browser_modal__list_row_meta {
     font-size: 13px;
     line-height: 1.38463;
-    font-weight: 400;
     color: rgb(255, 255, 255) !important;}
     .p-channel_create_modal__share {
     position: absolute;
@@ -2552,7 +2518,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     .p-dm_browser_modal__controls_meta {
     font-size: 13px;
     line-height: 1.38463;
-    font-weight: 400;
     color: rgba(255, 255, 255, 0.7) !important;}
     .p-classic_nav__right__search:hover .p-classic_nav__right__search__text {
     color: #96fff2 !important;}
@@ -2575,7 +2540,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
 .p-classic_nav__channel_header__subtitle {
     font-size: 13px;
     line-height: 1.38463;
-    font-weight: 400;
     color: rgba(255, 255, 255, 0.7) !important;}
     .p-channel_name_input__label_title strong {
     color: #ffffff !important;}
@@ -2591,7 +2555,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     .p-classic_nav__model__title__name {
     font-size: 18px;
     line-height: 1.33334;
-    font-weight: 900;
     display: inline-flex;
     max-width: 100%;
     align-items: baseline;
@@ -2624,7 +2587,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     .c-select_options_list__option {
     font-size: 15px;
     line-height: 1.46668;
-    font-weight: 400;
     display: flex;
     align-items: center;
     color: #ffffff !important;}
@@ -2650,8 +2612,6 @@ span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media
     .p-message_pane_input__preview_subtitle {
     font-size: 18px;
     line-height: 1.33334;
-    font-weight: 900;
-    font-weight: 400;
     color: #ffffff !important;}
   
     .c-texty_autocomplete__result{
